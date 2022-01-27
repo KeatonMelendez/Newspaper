@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Snell Roundhand";
+  font-weight: normal;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 30px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.row1 {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+.student {
+  /* inherited from section */
+  width: 25%;
+}
+
+.puppies {
+  /* inherited from section */
+  width: 50%;
+}
+
+.CSS {
+  /* inherited from section */
+  width: 25%;
+}
+
+img {
+  width: 100%;
+}
+
+.row2 {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+.boys {
+  width: 25%;
+}
+
+.other {
+  font-family: "Futura";
+  font-size: 30px;
+  font-weight: bold;
+  color: #666666;
+  width: 75%;
+  padding: 0px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  justify-content: center;
+  padding: 30px;
+}
+
+.box:hover {
+  text-decoration: underline;
+}
+
+.politics {
+  background-color: #ffeaa7;
+}
+
+.technology {
+  background-color: #81ecec;
+}
+
+.local {
+  background-color: #55efc4;
+}
+
+.opinion {
+  background-color: #74b9ff;
+}
+
+.sports {
+  background-color: #a29bfe;
+}
